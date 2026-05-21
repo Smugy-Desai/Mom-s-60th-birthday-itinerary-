@@ -1,0 +1,56 @@
+[
+  {
+    "person": "Adam",
+    "type": "arrival",
+    "flightNumber": "AS 536",
+    "from": "Seattle",
+    "to": "Boston",
+    "depart": "May 21, 11:10 PM",
+    "arrive": "May 22, 7:41 AM"
+  },
+  {
+    "person": "Mom",
+    "type": "arrival",
+    "flightNumber": "JetBlue",
+    "from": "Charleston",
+    "to": "Boston",
+    "depart": "May 22, 11:49 AM",
+    "arrive": "May 22, 2:10 PM"
+  },
+  {
+    "person": "Jordan",
+    "type": "arrival",
+    "flightNumber": "AC 8692",
+    "from": "Toronto",
+    "to": "Boston",
+    "depart": "May 22, 10:05 AM",
+    "arrive": "May 22, 11:46 AM"
+  },
+  {
+    "person": "Adam",
+    "type": "departure",
+    "flightNumber": "DL 3232",
+    "from": "Boston",
+    "to": "Seattle",
+    "depart": "May 25, 11:55 AM",
+    "arrive": "May 25, 3:05 PM"
+  },
+  {
+    "person": "Mom",
+    "type": "departure",
+    "flightNumber": "AC 765",
+    "from": "Boston",
+    "to": "Toronto",
+    "depart": "May 25, 6:55 PM",
+    "arrive": "May 25, 8:48 PM"
+  },
+  {
+    "person": "Jordan",
+    "type": "departure",
+    "flightNumber": "AC 765",
+    "from": "Boston",
+    "to": "Toronto",
+    "depart": "May 25, 6:55 PM",
+    "arrive": "May 25, 8:48 PM"
+  }
+]

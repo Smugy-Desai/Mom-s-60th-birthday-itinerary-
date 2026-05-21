@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#12382f">
+    <title>{{APP_TITLE}}</title>
+    <style>
+{{CSS}}
+    </style>
+  </head>
+  <body>
+    <div class="loading-screen" id="loadingScreen" aria-hidden="true">
+      <div class="loading-mark">
+        <span class="loading-kicker">May 22-25, 2026</span>
+        <span class="loading-title">Boston Birthday Weekend</span>
+      </div>
+    </div>
+
+    <a class="skip-link" href="#itinerary">Skip to itinerary</a>
+
+    <header class="site-header" aria-label="Weekend header">
+      <a class="brand-link" href="#top" aria-label="Boston Birthday Weekend home">BBW</a>
+      <nav class="view-nav" aria-label="Page view">
+        <button class="view-button is-active" type="button" data-view-target="itineraryView">Itinerary</button>
+        <button class="view-button" type="button" data-view-target="flightsView">Flights</button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="photo-backdrop" id="photoBackdrop" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <h1 id="heroTitle"></h1>
+          <p class="hero-subtitle" id="heroSubtitle"></p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="postcard">
+            <span class="postcard-line line-one"></span>
+            <span class="postcard-line line-two"></span>
+            <span class="diamond diamond-one"></span>
+            <span class="diamond diamond-two"></span>
+            <span class="scoreboard">60</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="view-panel is-active" id="itineraryView">
+        <section class="weather-section" aria-labelledby="weatherTitle">
+          <div class="section-heading">
+            <h2 id="weatherTitle">Weather</h2>
+          </div>
+          <p class="weather-note" id="weatherNote"></p>
+          <div class="weather-strip" id="weatherStrip"></div>
+        </section>
+
+        <section class="itinerary-section" id="itinerary" aria-labelledby="itineraryTitle">
+          <div class="section-heading">
+            <p class="eyebrow">Chapter by Chapter</p>
+            <h2 id="itineraryTitle">Weekend Itinerary</h2>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </section>
+      </div>
+
+      <section class="view-panel flights-section" id="flightsView" aria-labelledby="flightsTitle">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Flights</p>
+          <h2 id="flightsTitle">Arrivals & Departures</h2>
+        </div>
+        <div class="flight-board" id="flightBoard"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footerText"></p>
+    </footer>
+
+    <script>
+      window.__APP_DATA__ = {{APP_DATA}};
+    </script>
+    <script>
+{{JS}}
+    </script>
+  </body>
+</html>

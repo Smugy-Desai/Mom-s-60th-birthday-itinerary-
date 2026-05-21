@@ -1,0 +1,110 @@
+[
+  {
+    "id": "friday",
+    "navLabel": "Fri",
+    "title": "Arrival Day",
+    "date": "Friday, May 22",
+    "isoDate": "2026-05-22",
+    "events": [
+      {
+        "name": "Check into The Dagny Boston",
+        "time": "Afternoon",
+        "location": "The Dagny Boston",
+        "detail": "89 Broad Street, Boston, MA 02110.",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Dagny+Boston+89+Broad+Street+Boston+MA+02110"
+      },
+      {
+        "name": "Red Sox vs. Twins",
+        "time": "7:10 PM",
+        "location": "Fenway Park",
+        "detail": "Roger Clemens 20-Strikeout Double Bobblehead giveaway.",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fenway+Park+Boston+MA"
+      }
+    ]
+  },
+  {
+    "id": "saturday",
+    "navLabel": "Sat",
+    "title": "Cambridge and Old Town",
+    "date": "Saturday, May 23",
+    "isoDate": "2026-05-23",
+    "events": [
+      {
+        "name": "Breakfast near the hotel",
+        "time": "Morning",
+        "location": "Near The Dagny",
+        "detail": "Keep this easy and close before heading to Cambridge.",
+        "status": "open"
+      },
+      {
+        "name": "Harvard Walking Tour",
+        "time": "11:00 AM-12:30 PM",
+        "location": "Harvard University",
+        "detail": "A relaxed walk through Harvard Yard and nearby Cambridge.",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Harvard+Yard+Cambridge+MA"
+      },
+      {
+        "name": "Return to hotel and relax",
+        "time": "Early afternoon",
+        "location": "The Dagny Boston",
+        "detail": "A little reset before the food tour.",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Dagny+Boston+89+Broad+Street+Boston+MA+02110"
+      },
+      {
+        "name": "Politically Incorrect Food Tour",
+        "time": "2:30 PM-5:30 PM",
+        "location": "25 Parmenter Street",
+        "detail": "North End food tour hosted by Anthony.",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=25+Parmenter+Street+Boston+MA"
+      }
+    ]
+  },
+  {
+    "id": "sunday",
+    "navLabel": "Sun",
+    "title": "Mom's 60th Birthday",
+    "date": "Sunday, May 24",
+    "isoDate": "2026-05-24",
+    "badge": "Birthday Day",
+    "featured": true,
+    "events": [
+      {
+        "name": "Day to explore Boston",
+        "time": "Daytime",
+        "location": "Boston",
+        "detail": "Open time for a relaxed birthday pace around the city.",
+        "status": "open"
+      },
+      {
+        "name": "Birthday Dinner at Toro",
+        "time": "7:30 PM",
+        "location": "Toro",
+        "detail": "A celebratory dinner for Mom's 60th.",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Toro+Boston+MA"
+      }
+    ]
+  },
+  {
+    "id": "monday",
+    "navLabel": "Mon",
+    "title": "Departure Day",
+    "date": "Monday, May 25",
+    "isoDate": "2026-05-25",
+    "events": [
+      {
+        "name": "Breakfast and explore",
+        "time": "Morning",
+        "location": "Boston",
+        "detail": "Leave room for breakfast, packing, or one last walk.",
+        "status": "open"
+      },
+      {
+        "name": "Departure",
+        "time": "TBD",
+        "location": "Boston",
+        "detail": "Final timing can be added once travel details are set.",
+        "status": "open"
+      }
+    ]
+  }
+]
