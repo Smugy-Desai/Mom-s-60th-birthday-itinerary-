@@ -1,0 +1,78 @@
+[
+  {
+    "label": "Fri",
+    "high": "68",
+    "low": "54",
+    "periods": [
+      {
+        "label": "Morning",
+        "rain": "No rain"
+      },
+      {
+        "label": "Afternoon",
+        "rain": "No rain"
+      },
+      {
+        "label": "Evening",
+        "rain": "Possible"
+      }
+    ]
+  },
+  {
+    "label": "Sat",
+    "high": "70",
+    "low": "55",
+    "periods": [
+      {
+        "label": "Morning",
+        "rain": "Possible"
+      },
+      {
+        "label": "Afternoon",
+        "rain": "No rain"
+      },
+      {
+        "label": "Evening",
+        "rain": "No rain"
+      }
+    ]
+  },
+  {
+    "label": "Sun",
+    "high": "72",
+    "low": "56",
+    "periods": [
+      {
+        "label": "Morning",
+        "rain": "No rain"
+      },
+      {
+        "label": "Afternoon",
+        "rain": "No rain"
+      },
+      {
+        "label": "Evening",
+        "rain": "No rain"
+      }
+    ]
+  },
+  {
+    "label": "Mon",
+    "high": "69",
+    "low": "53",
+    "periods": [
+      {
+        "label": "Morning",
+        "rain": "Possible"
+      },
+      {
+        "label": "Afternoon",
+        "rain": "No rain"
+      },
+      {
+        "label": "Evening",
+        "rain": "No rain"
+      }
+    ]
+  }
+]
