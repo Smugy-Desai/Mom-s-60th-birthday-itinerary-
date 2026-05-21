@@ -19,9 +19,10 @@ Edit the files in `data/`:
 - `data/itinerary.json` controls days, events, times, locations, details, and map links.
 - `data/weather.json` controls the weather strip. It is placeholder planning guidance and does not update live.
 - `data/photos.json` is reserved for a future photo section.
-- `data/memory-photos.json` controls the five hero photo placeholders.
+- `data/memory-photos.json` controls the eight hero collage photos.
 - `data/flights.json` controls the arrivals and departures section.
 - `data/site.json` controls the title, subtitle, hero note, and footer.
+- `assets/photos/` stores the optimized photo files.
 
 For map buttons, add a `mapUrl` to an event. For open-ended plans, add `"status": "open"` so the card looks intentional.
 
@@ -82,6 +83,10 @@ Boston Birthday Weekend/
     memory-photos.json
     flights.json
     site.json
+  assets/
+    photos/
+      memory-01.jpg
+      ...
   scripts/
     build-standalone.mjs
     check-data.mjs

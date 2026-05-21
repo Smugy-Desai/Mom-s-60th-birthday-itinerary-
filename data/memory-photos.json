@@ -1,17 +1,34 @@
 [
   {
-    "label": "Photo 1"
+    "label": "Memory 1",
+    "src": "assets/photos/memory-01.jpg"
   },
   {
-    "label": "Photo 2"
+    "label": "Memory 2",
+    "src": "assets/photos/memory-02.jpg"
   },
   {
-    "label": "Photo 3"
+    "label": "Memory 3",
+    "src": "assets/photos/memory-03.jpg"
   },
   {
-    "label": "Photo 4"
+    "label": "Memory 4",
+    "src": "assets/photos/memory-04.jpg"
   },
   {
-    "label": "Photo 5"
+    "label": "Memory 5",
+    "src": "assets/photos/memory-05.jpg"
+  },
+  {
+    "label": "Memory 6",
+    "src": "assets/photos/memory-06.jpg"
+  },
+  {
+    "label": "Memory 7",
+    "src": "assets/photos/memory-07.jpg"
+  },
+  {
+    "label": "Memory 8",
+    "src": "assets/photos/memory-08.jpg"
   }
 ]

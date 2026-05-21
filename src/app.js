@@ -16,7 +16,7 @@
   const renderPhotoBackdrop = () => {
     $("#photoBackdrop").innerHTML = data.memoryPhotos.map((photo, index) => `
       <div class="memory-photo memory-photo-${index + 1}">
-        <span>${photo.label}</span>
+        ${photo.src ? `<img src="${photo.src}" alt="">` : `<span>${photo.label}</span>`}
       </div>
     `).join("");
   };

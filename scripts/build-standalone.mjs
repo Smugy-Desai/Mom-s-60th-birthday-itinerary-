@@ -10,6 +10,21 @@ const readText = (relativePath) => readFile(path.join(root, relativePath), "utf8
 const readJson = async (relativePath) => JSON.parse(await readText(relativePath));
 
 const escapeScriptEnd = (value) => value.replace(/<\/script/gi, "<\\/script");
+const imageMime = (filePath) => {
+  const ext = path.extname(filePath).toLowerCase();
+  if (ext === ".png") return "image/png";
+  if (ext === ".webp") return "image/webp";
+  return "image/jpeg";
+};
+
+const inlinePhotoSources = async (photoList) => Promise.all(photoList.map(async (photo) => {
+  if (!photo.src || photo.src.startsWith("data:")) return photo;
+  const bytes = await readFile(path.join(root, photo.src));
+  return {
+    ...photo,
+    src: `data:${imageMime(photo.src)};base64,${bytes.toString("base64")}`
+  };
+}));
 
 const [template, css, js, site, itinerary, weather, photos, memoryPhotos, flights] = await Promise.all([
   readText("src/index.template.html"),
@@ -28,7 +43,7 @@ const appData = {
   itinerary,
   weather,
   photos,
-  memoryPhotos,
+  memoryPhotos: await inlinePhotoSources(memoryPhotos),
   flights
 };
 

@@ -33,8 +33,14 @@ for (const day of itinerary) {
   }
 }
 
-if (!Array.isArray(memoryPhotos) || memoryPhotos.length !== 5) {
-  errors.push("memory-photos.json should contain exactly 5 placeholder photo entries");
+if (!Array.isArray(memoryPhotos) || memoryPhotos.length !== 8) {
+  errors.push("memory-photos.json should contain exactly 8 photo entries");
+}
+
+for (const photo of memoryPhotos) {
+  if (!photo.label || !photo.src) {
+    errors.push(`Missing photo field for ${photo.label || "unknown photo"}`);
+  }
 }
 
 for (const flight of flights) {
